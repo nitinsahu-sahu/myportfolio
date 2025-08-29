@@ -9,7 +9,7 @@
     align-items: center;
     width: 100%;
     padding: 0px 15%;
-    min-height: 700px;
+    min-height: 100vh;
     background-image: url("../images/bg-dark.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,8 +135,9 @@
         }
 
         .about-section {
-            padding-top: 150px;
-            display: block;
+            // padding-top: 150px;
+            align-items: 'center';
+            display: flex;
             padding-left: 0px;
             padding-right: 0px;
         }

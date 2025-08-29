@@ -5,6 +5,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Navigation from './components/navigation';
 import FadeIn from './components/fadeIn';
 import Main from './components/main';
+import Expertise from './components/expertise';
 
 function App() {
   const [mode, setMode] = useState('dark');
@@ -64,6 +65,7 @@ function App() {
         <div className="container mx-auto px-4">
           <FadeIn transitionDuration={700}>
             <Main parentToChild={{ mode }}/>
+            <Expertise parentToChild={{ mode }}/>
             {/* <Expertise />
             <Timeline />
             <Project />
